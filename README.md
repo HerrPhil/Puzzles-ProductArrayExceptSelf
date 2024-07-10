@@ -75,3 +75,19 @@ This is a solution that does not jump out at me as obvious.
 I would have not picked this immediately in a code test.
 
 The timer would run out on me as I use trial and error to MacGyver something.
+
+## Observation
+
+I was contemplating why a left/right strategy is used.
+
+I think it is a divide-and-conquer strategy.
+
+Intuitively, we want the product of values to the left and right of the current position,
+and the product of values excludes the value of the current position.
+
+Therefore, programmatically, it makes senses to accumulate all product values to the left of the current position,
+then accumulate all the product values to the right of the current position.
+
+We iterate over the current position.
+
+Then we aggregate them by multiplying values at the same position.
