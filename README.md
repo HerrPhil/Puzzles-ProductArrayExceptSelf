@@ -36,11 +36,11 @@ The left array represents all the multiplications to the left.
 
 We seed the first location with the value `1`.
 
-From position 1, the multiplication of all of the stuff to the left is 1.
+From position 1, the multiplication of all of the stuff to the left is `1`.
 
-From position 2, the multiplication of all of the stuff to the left is 1*2 = 2.
+From position 2, the multiplication of all of the stuff to the left is `1*2 = 2`.
 
-From position 3, the multiplication of all of the stuff to the left is 1*2*3 = 6
+From position 3, the multiplication of all of the stuff to the left is `1*2*3 = 6`.
 
 The left array is thus:
 
@@ -50,11 +50,11 @@ The right array represents all the multiplications to the right.
 
 We see the last location with the value `1`.
 
-From position 0, the multiplication of all of the stuff to the right is 2*3*4 = 24.
+From position 0, the multiplication of all of the stuff to the right is `2*3*4 = 24`.
 
-From position 1, the multiplication of all of the stuff to the right is 3*4 = 12.
+From position 1, the multiplication of all of the stuff to the right is `3*4 = 12`.
 
-From position 2, the multiplication of all of the stuff to the right is 4.
+From position 2, the multiplication of all of the stuff to the right is `4`.
 
 The right array is thus:
 
